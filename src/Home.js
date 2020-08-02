@@ -55,6 +55,10 @@ function Home() {
 
           </div>
      </div>
+     <video controls autoPlay loop muted>
+  <source src="videos/video.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
      
      
 </section>
@@ -150,96 +154,76 @@ function Home() {
 
 
 
-<section id="team" className="parallax-section">
-     <div className="container">
-          <div className="row">
-
-               <div className="col-md-offset-2 col-md-8 col-sm-12">
-               
-                    <div className="section-title">
-                         <h1>Meet Our People</h1>
-                    </div>
-               </div>
-
-               <div className="clearfix"></div>
-
-               <div id="owl-team" className="owl-carousel">
-                    <div className="col-md-4 col-sm-4 item">
-                         <div className="team-item">
-                              <img src="/images/team-image1.jpg" className="img-responsive" alt=""/>
-                              <div className="team-overlay">
-                                   <ul className="social-icon">
-                                        <li><a href="#" className="fa fa-twitter"></a></li>
-                                        <li><a href="#" className="fa fa-linkedin"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                         <p>Catherine Jann</p>
-                         <h3>Head Designer</h3>
-                    </div>
-
-                    <div className="col-md-4 col-sm-4 item">
-                         <div className="team-item">
-                              <img src="/images/team-image2.jpg" className="img-responsive" alt=""/>
-                              <div className="team-overlay">
-                                   <ul className="social-icon">
-                                        <li><a href="#" className="fa fa-instagram"></a></li>
-                                        <li><a href="#" className="fa fa-github"></a></li>
-                                        <li><a href="#" className="fa fa-facebook"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                         <p>Luke Wara</p>
-                         <h3>Speciality Focus</h3>
-                    </div>
-
-                    <div className="col-md-4 col-sm-4 item">
-                         <div className="team-item">
-                              <img src="/images/team-image3.jpg" className="img-responsive" alt=""/>
-                              <div className="team-overlay">
-                                   <ul className="social-icon">
-                                        <li><a href="#" className="fa fa-instagram"></a></li>
-                                        <li><a href="#" className="fa fa-dribbble"></a></li>
-                                        <li><a href="#" className="fa fa-behance"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                         <p>Mono Mana</p>
-                         <h3>Art director</h3>
-                    </div>
-
-                    <div className="col-md-4 col-sm-4 item">
-                         <div className="team-item">
-                              <img src="/images/team-image4.jpg" className="img-responsive" alt=""/>
-                              <div className="team-overlay">
-                                   <ul className="social-icon">
-                                        <li><a href="#" className="fa fa-twitter"></a></li>
-                                        <li><a href="#" className="fa fa-facebook"></a></li>
-                                        <li><a href="#" className="fa fa-envelope-o"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                         <p>Phway Phyu</p>
-                         <h3>Designer in Chief</h3>
-                    </div>
-
-                    <div className="col-md-4 col-sm-4 item">
-                         <div className="team-item">
-                              <img src="/images/team-image1.jpg" className="img-responsive" alt=""/>
-                              <div className="team-overlay">
-                                   <ul className="social-icon">
-                                        <li><a href="#" className="fa fa-twitter"></a></li>
-                                        <li><a href="#" className="fa fa-linkedin"></a></li>
-                                   </ul>
-                              </div>
-                         </div>
-                         <p>Cherry Lynn</p>
-                         <h3>Marketing Manager</h3>
-                    </div>
-               </div>
-
+<section id="team" classname="parallax-section">
+  <div classname="container">
+    <div classname="row">
+      <div classname="col-md-offset-2 col-md-8 col-sm-12">
+        <div classname="section-title">
+          <h1>Meet Our People</h1>
+        </div>
+      </div>
+      
+      <div classname="clearfix" />
+      <div id="owl-team" classname="owl-carousel inline-block">
+       
+        <div classname="col-md-4 col-sm-4 item">
+          <div classname="team-item">
+            <img src="/images/team-image2.jpg" classname="img-responsive" alt />
+            <div classname="team-overlay">
+              <ul classname="social-icon">
+                <li><a href="#" classname="fa fa-instagram" /></li>
+                <li><a href="#" classname="fa fa-github" /></li>
+                <li><a href="#" classname="fa fa-facebook" /></li>
+              </ul>
+            </div>
           </div>
-     </div>
+          <p>Luke Wara</p>
+          <h3>Speciality Focus</h3>
+        </div>
+        <div classname="col-md-4 col-sm-4 item">
+          <div classname="team-item">
+            <img src="/images/team-image3.jpg" classname="img-responsive" alt />
+            <div classname="team-overlay">
+              <ul classname="social-icon">
+                <li><a href="#" classname="fa fa-instagram" /></li>
+                <li><a href="#" classname="fa fa-dribbble" /></li>
+                <li><a href="#" classname="fa fa-behance" /></li>
+              </ul>
+            </div>
+          </div>
+          <p>Mono Mana</p>
+          <h3>Art director</h3>
+        </div>
+        <div classname="col-md-4 col-sm-4 item">
+          <div classname="team-item">
+            <img src="/images/team-image4.jpg" classname="img-responsive" alt />
+            <div classname="team-overlay">
+              <ul classname="social-icon">
+                <li><a href="#" classname="fa fa-twitter" /></li>
+                <li><a href="#" classname="fa fa-facebook" /></li>
+                <li><a href="#" classname="fa fa-envelope-o" /></li>
+              </ul>
+            </div>
+          </div>
+          <p>Phway Phyu</p>
+          <h3>Designer in Chief</h3>
+        </div>
+        <div classname="col-md-4 col-sm-4 item">
+          <div classname="team-item">
+            <img src="/images/team-image1.jpg" classname="img-responsive" alt />
+            <div classname="team-overlay">
+              <ul classname="social-icon">
+                <li><a href="#" classname="fa fa-twitter" /></li>
+                <li><a href="#" classname="fa fa-linkedin" /></li>
+              </ul>
+            </div>
+          </div>
+          <p>Cherry Lynn</p>
+          <h3>Marketing Manager</h3>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
 
@@ -290,6 +274,41 @@ function Home() {
           </div>
      </div>
 </section>
+<footer>
+  <div className="container">
+    <div className="row">
+      <div className="col-md-5 col-sm-6">
+        <h2>Digital Studio</h2>
+        <p>321 Donec et justo id risus, Malesuada pharetra,<br /> Tristique vestibulum,<br /> Lorem ipsum dolor</p>
+      </div>
+      <div className="col-md-4 col-sm-6">
+        <div className="footer-info">
+          <h2>Keep in touch</h2>
+          <p><a href="tel:010-090-0780">010-090-0780</a></p>
+          <p><a href="mailto:info@company.com">info@company.com</a></p>
+          <p><a href="#">Our Location</a></p>
+        </div>
+      </div>
+      <div className="col-md-3 col-sm-12">
+        <h2>About Us</h2>
+        <p>Sed vestibulum posuere ante, eget blandit metus. Morbi sodales feugiat erat, et placerat sapien suscipit ut.</p>
+        <ul className="social-icon">
+          <li><a href="#" className="fa fa-twitter" /></li>
+          <li><a href="#" className="fa fa-facebook" /></li>
+          <li><a href="#" className="fa fa-instagram" /></li>
+          <li><a href="#" className="fa fa-linkedin" /></li>
+        </ul>
+      </div>
+      <div className="clearfix" />
+      <div className="col-md-12 col-sm-12">
+        <div className="copyright-text">
+          <p>Copyright © 2018 Company Name 
+            | Design: Tooplate</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 </div>
   );
 }
